@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: iransans, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+@font-face {
+  font-family: iransans;
+  src: url(./assets/fonts/IRANSansWeb-Light.ttf);
+  src: url(./assets/fonts/IRANSansWeb-Light.woff2);
+  src: url(./assets/fonts/IRANSansWeb-Light.woff);
+}
+header {
+  background: url(./assets/images/header-back-1.png);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  position: fixed;
+  top: 0px;
+
+  img {
+    position: relative;
+    top: 50px;
+  }
+  nav {
+    a {
+      color: white;
+      padding: 0px 10px;
+      border-left: 1px solid white;
+      text-decoration: none;
+    }
+  }
+}
+banner {
+  padding-top: 100px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: rgb(230, 230, 228);
+  .info-banner {
+    width: 450px;
+  }
+  .subtitle {
+    margin-top: 10px;
+    font-weight: lighter;
+    color: rgb(84, 88, 88);
+  }
+  .title {
+    color: red;
+    font-weight: lighter;
+    margin-top: 100px;
+  }
+  .dokme-banner {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 28px;
+    font-family: iransans, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: lightslategray;
+    margin-bottom: 45px;
+  }
+  .p-banner {
+    width: 450px;
+    height: 200px;
+    line-height: 35px;
+    color: lightslategray;
+    margin-top: 40px;
+  }
+}
